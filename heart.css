@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input-container {
+    background-color: black;
+    color: rgb(250, 1, 1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+  }
+  
+  .input-box {
+    margin-bottom: 10px;
+  }
+  
+  .input-box input {
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #fb0000;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .input-box button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #60cfcf;
+    border: none;
+    color: #FFFFFF(4, 165, 246);
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #greetingText {
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    font-style: italic;
+    position: absolute;
+    max-width: 300px; /* Giới hạn chiều rộng của dòng chữ */
+    word-wrap: break-word; /* Cho phép xuống dòng khi tràn */
+    text-align: center; /* Căn giữa văn bản */
+    display: none;
+  }
+  
+  canvas {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
